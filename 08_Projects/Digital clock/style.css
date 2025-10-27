@@ -1,0 +1,54 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Center the content perfectly on the page */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+}
+
+/* Main container */
+.center {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* "Your local time" text */
+#banner span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #e0e0e0;
+}
+
+/* Clock styling */
+#clock {
+  margin-top: 15px;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,0.8);
+  transition: all 0.3s ease;
+}
+
+/* Add a glowing effect */
+#clock:hover {
+  text-shadow: 0 0 20px #fff, 0 0 40px #9f7aea;
+  transform: scale(1.05);
+}
+    
